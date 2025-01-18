@@ -1,0 +1,148 @@
+.container {
+    width: 80%;
+    max-width: 1140px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.col-1 {
+    width: calc(100%/12);
+}
+
+.col-2 {
+    width: calc(100%/12*2);
+}
+
+.col-3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .lean {
+        border: 1px solid;
+        box-sizing: border-box;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, .2);
+        font-size: 14px;
+    }
+
+    .lean2 {
+        border: 1px solid rgba(0, 0, 0, .2);
+        box-sizing: border-box;
+        border-radius: 10px;
+        background-color: #407BFF;
+        font-size: 14px;
+    }
+}
+
+.col-4 {
+    width: calc(100%/12*4);
+}
+
+.col-5 {
+    width: calc(100%/12*5);
+    text-align: center;
+    gap: 20px;
+
+    .lean {
+        border: 2px solid;
+        box-sizing: border-box;
+        border-radius: 15px;
+        border: 1px solid rgba(0, 0, 0, .2);
+        font-size: 12px;
+        background-color: #407BFF;
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .lean2 {
+        border: 2px solid rgba(0, 0, 0, .2);
+        box-sizing: border-box;
+        border-radius: 15px;
+        font-size: 12px;
+        justify-content: center;
+        display: inline-block;
+    }
+
+}
+
+
+
+.col-6 {
+    width: 50%;
+
+}
+
+.col-7 {
+    width: calc(100%/12*7);
+    position: relative;
+    display: flex;
+
+}
+
+
+.col-8 {
+    width: calc(100%/12*8);
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: calc(100%/12*10);
+}
+
+.col-11 {
+    width: calc(100%/12*11);
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.relative {
+    position: relative;
+}
