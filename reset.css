@@ -30,3 +30,14 @@ ol {
 span {
     color: #407BFF;
 }
+
+main {
+    section {
+        padding-bottom: 130px;
+    }
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
