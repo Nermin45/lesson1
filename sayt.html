@@ -8,11 +8,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Css file links -->
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./layout.css">
+    <link rel="stylesheet" href="./src/css/swipper.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./src/css/responsive.css">
     <link rel="stylesheet" href="./src/css/animation.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -43,6 +49,7 @@
     </header>
     <main>
         <section id="intro">
+
             <div class="container">
                 <div class="row  text-center">
                     <div class="col-5">
@@ -77,27 +84,470 @@
                         <p class="p2">“Separated they live in Bookmarksgrove right at the coast of the Semantics, a
                             large language ocean. A small river named Duden flows by their place and supplies it with
                             the necessary regelialia. ”</p>
-            <div class="client-card flex">
-              <img src="https://preview.colorlib.com/theme/launch/images/person_1.jpg.webp"  alt="client İmage">
-                        <div>
-                            <h5>James Anderson</h5>
-                            <p>Facebook, Product Lead</p>
+                        <div class="client-card flex">
+                            <img src="https://preview.colorlib.com/theme/launch/images/person_1.jpg.webp"
+                                alt="client İmage">
+                            <div>
+                                <h5>James Anderson</h5>
+                                <p>Facebook, Product Lead</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="service-big-image">
+                            <img src="https://preview.colorlib.com/theme/launch/images/dashboard.jpg.webp" alt="">
+                            <span> <i class="fa-solid fa-play"> </i> </span>
                         </div>
                     </div>
                 </div>
-                <div class="col-7">
-                    <div class="service-big-image">
-                 <img src="https://preview.colorlib.com/theme/launch/images/dashboard.jpg.webp" alt="">
-             <span> <i class="fa-solid fa-play"> </i> </span>
+            </div>
+        </section>
+        <section id="service">
+            <div class="container">
+                <div class="Prinig">
+                    <div class="flex-grow padding-x-15">
+                        <img src="https://preview.colorlib.com/theme/launch/images/dashboard.jpg.webp" alt="">
+                    </div>
+                    <div class="col-6">
+                        <div class="service-card">
+                            <div class="card">
+                                <div class="icon icon1">
+                                    <svg class="bi bi-app-indicator" width="1em" height="1em" viewBox="0 0 16 16"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z">
+                                        </path>
+                                        <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+                                    </svg>
+                                </div>
+                                <div class="text">
+                                    <h3>Grow Your Business</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                        Consonantia, there live the blind texts.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="icon icon2">
+                                    <svg class="bi bi-arrow-repeat" width="1em" height="1em" viewBox="0 0 16 16"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z">
+                                        </path>
+                                        <path fill-rule="evenodd"
+                                            d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z">
+                                        </path>
+                                    </svg>
+                                    <path fill-rule="evenodd"
+                                        d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z">
+                                    </path>
+                                    <path fill-rule="evenodd"
+                                        d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z">
+                                    </path>
+                                    </svg>
+                                </div>
+                                <div class="text">
+                                    <h3>Build Products</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                        Consonantia, there live the blind texts.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class=" icon icon3">
+                                    <svg class="bi bi-briefcase" width="1em" height="1em" viewBox="0 0 16 16"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z">
+                                        </path>
+                                        <path fill-rule="evenodd"
+                                            d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z">
+                                        </path>
+                                    </svg>
+                                    <path fill-rule="evenodd"
+                                        d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z">
+                                    </path>
+                                    <path fill-rule="evenodd"
+                                        d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z">
+                                    </path>
+                                    </svg>
+                                </div>
+                                <div class="text">
+                                    <h3>Success Every Day</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                        Consonantia, there live the blind texts.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class=" icon icon4">
+                                    <svg class="bi bi-collection" width="1em" height="1em" viewBox="0 0 16 16"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M14.5 13.5h-13A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5zm-13 1A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z">
+                                        </path>
+                                    </svg>
+                                    <path fill-rule="evenodd"
+                                        d="M14.5 13.5h-13A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5zm-13 1A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z">
+                                    </path> </svg>
+                                </div>
+                                <div class="text">
+                                    <h3>Bring Ideas to Life</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                        Consonantia,
+                                        there live the blind texts.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             </div>
-        </section>+
+            </div>
+            </div>
+        </section>
+        <section id="Icons">
+            <div class="cards_storage">
+                <div class="new-card">
+                    <div class="icon-storage blue-icon">
+                        <svg class="bi bi-app-indicator" width="1em" height="1em" viewBox="0 0 16 16"
+                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z">
+                            </path>
+                            <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+                        </svg>
+                    </div>
+                    <h6>Grow Your Business</h6>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.
+                    </p>
+                </div>
+                <div class="new-card">
+                    <div class="icon-storage yellow-icon">
+                        <svg class="bi bi-arrow-repeat" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z">
+                            </path>
+                            <path fill-rule="evenodd"
+                                d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z">
+                            </path>
+                        </svg>
+                        <path fill-rule="evenodd"
+                            d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z">
+                        </path>
+                        <path fill-rule="evenodd"
+                            d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z">
+                        </path>
+                        </svg>
+                    </div>
+                    <h6>Grow Your Business</h6>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.
+                    </p>
+                </div>
+                <div class="new-card">
+                    <div class="icon-storage red-icon">
+                        <svg class="bi bi-briefcase" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z">
+                            </path>
+                            <path fill-rule="evenodd"
+                                d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z">
+                            </path>
+                        </svg>
+                        <path fill-rule="evenodd"
+                            d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z">
+                        </path>
+                        <path fill-rule="evenodd"
+                            d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z">
+                        </path> </svg>
+                    </div>
+                    <h6>Grow Your Business</h6>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.
+                    </p>
+                </div>
+                <div class="new-card">
+                    <div class="icon-storage dark-blue-icon">
+                        <svg class="bi bi-collection" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M14.5 13.5h-13A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5zm-13 1A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z">
+                            </path>
+                        </svg>
+                        <path fill-rule="evenodd"
+                            d="M14.5 13.5h-13A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5zm-13 1A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z">
+                        </path> </svg>
+                    </div>
+                    <h6>Grow Your Business</h6>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.
+                    </p>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section id="Header">
+            <div class="cont">
+                <div class="head-1">
+                    <h2>Pricing</h2>
+                    <p>Pricing for everyone. Choose your plan now!</p>
+                </div>
+            </div>
+            <div class="name">
+                <div class="cont-1">
+                    <div class="box-1">
+                        <span class="free">Free</span>
+                        <span class="zero"><sup>$</sup>0</span>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>There live the blind texts</li>
+                            <li> <i class="fa-solid fa-check"></i>Far far away behind the word</li>
+                            <li> <i class="fa-solid fa-check"></i>Far from the countries Vokalia and Consonantia</li>
+                        </ul>
+                        <div class="text-center"><a href="#" class="btn-active">GET STARTED</a></div>
+                    </div>
+                </div>
+                <div class="cont-1">
+                    <div class="box-1">
+                        <span class="free">Free</span>
+                        <span class="zero"><sup>$</sup>19.99</span>
+                        <ul>
+                            <li> <i class="fa-solid fa-check"></i>There live the blind texts</li>
+                            <li> <i class="fa-solid fa-check"></i>Far far away behind the word</li>
+                            <li> <i class="fa-solid fa-check"></i>Far from the countries Vokalia and Consonantia</li>
+                        </ul>
+                        <div class="text-center"><a href="#" class="btn-active btn">GET STARTED</a></div>
+                    </div>
+                </div>
+                <div class="cont-1">
+                    <div class="box-1">
+                        <span class="free">Free</span>
+                        <span class="zero"><sup>$</sup>79.99</span>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>There live the blind texts</li>
+                            <li> <i class="fa-solid fa-check"></i>Far far away behind the word</li>
+                            <li><i class="fa-solid fa-check"></i>Far from the countries Vokalia and Consonantia</li>
+                        </ul>
+                        <div class="text-center"> <a href="#" class="btn-active">GET STARTED</a></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section id="Hed-1">
+            <div class="cont">
+                <div class="Head">
+                    <h2>Advantage of using our products</h2>
+                    <p>Far from the countries Vokalia and Consonantia</p>
+                </div>
+            </div>
+            <div class="cards_storage-1">
+                <div class="new-card-1">
+                    <div class="icon-storage blue-icon">
+                        <svg class="bi bi-app-indicator" width="1em" height="1em" viewBox="0 0 16 16"
+                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z">
+                            </path>
+                            <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+                        </svg>
+                    </div>
+                    <h6>Grow Your Business</h6>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.
+                    </p>
+                    <div class="A-1"> <a href="#">Learn More</a> </div>
+                </div>
+                <div class="new-card-1">
+                    <div class="icon-storage yellow-icon">
+                        <svg class="bi bi-briefcase" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z">
+                            </path>
+                            <path fill-rule="evenodd"
+                                d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z">
+                            </path>
+                        </svg>
+                        <path fill-rule="evenodd"
+                            d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z">
+                        </path>
+                        <path fill-rule="evenodd"
+                            d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z">
+                        </path> </svg>
+                    </div>
+                    <h6>Grow Your Business</h6>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.
+                    </p>
+                    <div class="A-1"> <a href="#">Learn More</a> </div>
+                </div>
+                <div class="new-card-2">
+                    <div class="icon-storage red-icon">
+                        <svg class="bi bi-arrow-repeat" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z">
+                            </path>
+                            <path fill-rule="evenodd"
+                                d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z">
+                            </path>
+                        </svg>
+                        <path fill-rule="evenodd"
+                            d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z">
+                        </path>
+                        <path fill-rule="evenodd"
+                            d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z">
+                        </path>
+                        </svg>
+                    </div>
+                    <h6>Grow Your Business</h6>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.
+                    </p>
+                    <div class="A-1"> <a href="#">Learn More</a> </div>
+                </div>
+                <div class="new-card-2">
+                    <div class="icon-storage dark-blue-icon">
+                        <svg class="bi bi-collection" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M14.5 13.5h-13A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5zm-13 1A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z">
+                            </path>
+                        </svg>
+                        <path fill-rule="evenodd"
+                            d="M14.5 13.5h-13A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5zm-13 1A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z">
+                        </path> </svg>
+                    </div>
+                    <h6>Grow Your Business</h6>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.
+                    </p>
+                    <div class="A-1"> <a href="#">Learn More</a> </div>
+                </div>
+            </div>
+        </section>
+                    <!-- Swiper -->
+                    <section id="feedback-item-1">
+                        <div class="container">
+                            <div class="col-4 min-width-350 height-350">
+                                <p class="sub-title"> Testimonials</p>
+                                <h2>Our Customers  Feedbck </h2>
+                                <div class="prev-next-buttos-container">
+                                    <button  class="swiper-button-prev">
+                                        <span> &leftarrow;</span>
+                                    </button>
+                                    <button class="swiper-button-next">
+                                        <span> &rightarrow;</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+                                        <div>
+                                            <blockquote>
+                                                “Separated they <span class="highlight">live in Bookmarksgrove right at
+                                                    the coast of the Semantics</span>, a large language ocean. A small
+                                                river named Duden flows by their place and supplies it with the
+                                                necessary regelialia. ”
+                                            </blockquote>
+                                            <div class="avatar-container">
+                                                <div class="avatar">
+                                                    <img src="https://preview.colorlib.com/theme/launch/images/person_1.jpg.webp" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <h5>James Anderson</h5>
+                                                    <p>Facebook, Product Lead</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div>
+                                            <blockquote>
+                                                “Separated they <span class="highlight">live in Bookmarksgrove right at
+                                                    the coast of the Semantics</span>, a large language ocean. A small
+                                                river named Duden flows by their place and supplies it with the
+                                                necessary regelialia. ”
+                                            </blockquote>
+                                            <div class="avatar-container">
+                                                <div class="avatar">
+                                                    <img src="https://preview.colorlib.com/theme/launch/images/person_2.jpg.webp" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <h5>James Anderson</h5>
+                                                    <p>Facebook, Product Lead</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div>
+                                            <blockquote>
+                                                “Separated they <span class="highlight">live in Bookmarksgrove right at
+                                                    the coast of the Semantics</span>, a large language ocean. A small
+                                                river named Duden flows by their place and supplies it with the
+                                                necessary regelialia. ”
+                                            </blockquote>
+                                            <div class="avatar-container">
+                                                <div class="avatar">
+                                                    <img src="https://preview.colorlib.com/theme/launch/images/person_3.jpg.webp" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <h5>James Anderson</h5>
+                                                    <p>Facebook, Product Lead</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                    </section>
+        </section>
+
+
 
     </main>
     <footer></footer>
+  
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"> </script>
+    <!-- Initialize Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        loop: true,
+        slidesPerView: 2, // Display 2 cards at a time
+        spaceBetween: 20, // Space between the cards
+        autoplay: {
+          delay: 3000, // Delay between slides
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
 </body>
 
 </html>
