@@ -1,0 +1,8 @@
+@keyframes identifier {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(100px);
+    }
+}
